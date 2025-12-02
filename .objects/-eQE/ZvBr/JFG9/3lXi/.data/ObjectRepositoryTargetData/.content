@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HzcJndqYlUWTnEbgxZ1E-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopee.ph" CVScreenId="346d6312-8416-4de2-8129-2ef0912747b0" CvElementArea="1337, 197, 66, 40" CvType="Button" DesignTimeRectangle="1340, 200, 60, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='button' /&gt;" Guid="4d87f61c-d080-4d7e-a706-a2c509e4e9c2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopee Philippines | Shop Online with Promos and Vouchers' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="346d6312-8416-4de2-8129-2ef0912747b0" CvTextArea="379, 208, 138, 36" CvTextArgument="S Shopee" CvType="Text" DesignTimeRectangle="361, 194, 162, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;div&amp;gt;svg' parentid='main' tag='svg' /&gt;" Guid="e07de39e-e192-434a-9257-1e46981bbd57" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5f4d147dfcfc1c26fd6395c9d38fb90f.png" xmlns="">05BcjSAvnk02b8BndypUNIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

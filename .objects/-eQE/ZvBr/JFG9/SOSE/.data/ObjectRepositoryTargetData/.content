@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_yrrMZMGyEK7jJAeM5WHAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopee.ph" CVScreenId="a9c7c313-f0ea-40dc-8191-4bb3ea41d10e" CvElementArea="559, 197, 787, 40" CvType="InputBox" DesignTimeRectangle="576, 200, 754, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="56b7796f-b059-4825-8ae5-fa34bf0d901f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopee Philippines‎ | Buy and Sell on Mobile or Online' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fad04d6c99511da5b0bf94db2992852e.png" xmlns="">0ue8wXYP3RUS96DNXta8U0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

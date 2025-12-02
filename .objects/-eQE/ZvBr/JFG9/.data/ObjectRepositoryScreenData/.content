@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="xj5I_UD19kGyFlI6PXJ2Fw" Reference="W0zk2vHyhk6EeBwhQd-nnQ/JFG9Zi1thU26Wig5yPVs2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="MFW2OEas3UeL3KDCpMETfg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIeSURBVFhH5VfRccMgDM0IGcGfOQd8HiHfKaTeoBkhG7QbtBukG6QbeISM4P/GmBHaEzYOCGKwE/enunt3LchIBb0ndbEYabJIlnKXvTaclg2nPwosO8td9oJ9H26yWCUNp1UfuP1Zmr+DD/7uIWYGl5yevrdpft3LE8Ho56xJCE5PEEDsyBve0yYY+eiSKPHeXSYZ2ei/Du9ha1hbGxdGNnhvstXd9cYUWr2l++6ZjnhvskGVq0M3+RLvYZNFvoy9LcvkNs3hqn3oDpR4/RY0K/C6CTt4kUOFayr9CSym/M8EcD1hhwhUDSOlgq2OUbCCj0qAkbOP40gNg8DfQwKmpt9CBTSD9xOcHhueVUBRUEmtEVozAnApGnONEMTTkKyDPWs+TEygWCU1owVeHw1Gzjh+r3ZDgLc3lO4OELdZ6SYyBMHpO/jWXOl98MZuY2ICAJiGwB+qXiXS0tDxC+ALx1+MoRC8odkZx1LQ2ynHHGCgAjpqWYUaiaEzDC44/tQEeuin6ZJw9k0I5pmqYBE7joXg2QHOChXobAno4goVtHhaq0TtBPj6gB0dBCreuIHBOqh5usfx+1luAIq7HfUc0dKF1WkE/taC5PQZx49JQAmRrnigHhQcSDOoY7uW5qH3B/i6KXSxWI2XinoQuJ/xaHG5/k8QhDcBc5icGzAA4/j6+hznOeCMY9pi3u9u+FqxNjWceir8YWCkhBhmzF/yfom7GQZ1iQAAAABJRU5ErkJggg==" Reference="W0zk2vHyhk6EeBwhQd-nnQ/JFG9Zi1thU26Wig5yPVs2Q" Selector="&lt;html app='chrome.exe' title='Shopee Philippines‎ | Buy and Sell on Mobile or Online' /&gt;" Url="https://shopee.ph/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="a6a56614748b27230c0496126dfb4f51.jpg" xmlns="">0vFgCEYf6FECH0PN_X0wdiw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

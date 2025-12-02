@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Impact Wrench Ingco",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "DKl9iIFJI0mRdHIKIWb4-g",
+  "Reference": "W0zk2vHyhk6EeBwhQd-nnQ/DKl9iIFJI0mRdHIKIWb4-g",
+  "ParentRef": "W0zk2vHyhk6EeBwhQd-nnQ/JFG9Zi1thU26Wig5yPVs2Q",
+  "Created": "2025-12-02T00:17:14.0153818Z",
+  "Updated": "2025-12-02T00:17:14.0153818Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
