@@ -119,13 +119,13 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,1758" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,1842" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1587" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1671" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -155,7 +155,7 @@
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
               </uix:NClick>
-              <Sequence DisplayName="Price Validation" sap:VirtualizedContainerService.HintSize="486,1022" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Price Validation" sap:VirtualizedContainerService.HintSize="486,1106" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="priceValue" />
                   <Variable x:TypeArguments="x:Int32" Name="intPrice" />
@@ -192,7 +192,7 @@
                     <InArgument x:TypeArguments="x:Int32">[CInt(priceValue)]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <If Condition="[intPrice &gt; 6000]" sap:VirtualizedContainerService.HintSize="452,446" sap2010:WorkflowViewState.IdRef="If_1">
+                <If Condition="[intPrice &gt; 2000]" sap:VirtualizedContainerService.HintSize="452,530" sap2010:WorkflowViewState.IdRef="If_1">
                   <If.Then>
                     <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
@@ -200,16 +200,17 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Sucess&quot;]" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Sucess: &quot; + strPrice]" />
                     </Sequence>
                   </If.Then>
                   <If.Else>
-                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_7">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_2" Reason="Terminate" />
                     </Sequence>
                   </If.Else>
                 </If>
