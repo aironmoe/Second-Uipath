@@ -119,13 +119,13 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,1842" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,2017" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1671" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1846" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -155,7 +155,7 @@
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
               </uix:NClick>
-              <Sequence DisplayName="Price Validation" sap:VirtualizedContainerService.HintSize="486,1106" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Price Validation" sap:VirtualizedContainerService.HintSize="486,1281" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="priceValue" />
                   <Variable x:TypeArguments="x:Int32" Name="intPrice" />
@@ -176,6 +176,7 @@
                     </uix:TargetAnchorable>
                   </uix:NGetText.Target>
                 </uix:NGetText>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Fatal" Message="[strPrice]" />
                 <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_2">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[priceValue]</OutArgument>
