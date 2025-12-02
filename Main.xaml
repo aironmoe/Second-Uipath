@@ -192,7 +192,7 @@
                     <InArgument x:TypeArguments="x:Int32">[CInt(priceValue)]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <If Condition="[intPrice &gt; 2000]" sap:VirtualizedContainerService.HintSize="452,530" sap2010:WorkflowViewState.IdRef="If_1">
+                <If Condition="[intPrice &lt; 2000]" sap:VirtualizedContainerService.HintSize="452,530" sap2010:WorkflowViewState.IdRef="If_1">
                   <If.Then>
                     <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
