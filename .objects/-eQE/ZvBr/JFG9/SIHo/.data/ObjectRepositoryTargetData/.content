@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AUALEgzhpUCTGkh-K-qnnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopee.ph/search" CVScreenId="4b905bc9-b5ce-42b3-9588-89435b9980e9" CvType="AnyWordGroup" DesignTimeRectangle="589, 642, 40, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='main' tag='SPAN' type='' class='truncate text-base/5 font-medium' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="a9336b43-29bf-46c1-a717-17d7bed26379" ScopeSelectorArgument="&lt;html app='chrome.exe' title='&amp;quot;impact wrench ingco&amp;quot; - Best Prices and Online Promos - Dec 2025 | Shopee Philippines' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b905bc9-b5ce-42b3-9588-89435b9980e9" CvTextArea="379, 208, 138, 36" CvTextArgument="S Shopee" CvType="Text" DesignTimeRectangle="361, 194, 162, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;div&amp;gt;svg' parentid='main' tag='svg' /&gt;" Guid="d798dd5e-e2d2-40d4-8398-207430442a05" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4753ce4482c2d882b121f40a51bc7003.png" xmlns="">09ejtNKkeUEG7BNAcmMnBcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SPayLater 0% Interest 3…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "SIHo0RoqkUSPIJAcdXXuug",
+  "Reference": "W0zk2vHyhk6EeBwhQd-nnQ/SIHo0RoqkUSPIJAcdXXuug",
+  "ParentRef": "W0zk2vHyhk6EeBwhQd-nnQ/JFG9Zi1thU26Wig5yPVs2Q",
+  "Created": "2025-12-02T01:27:53.654825Z",
+  "Updated": "2025-12-02T01:27:53.654825Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

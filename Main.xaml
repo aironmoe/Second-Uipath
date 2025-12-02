@@ -92,32 +92,32 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1082,856" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1082,1082" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="486,833" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="520,1059" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,750" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Shopee Philippines‎  Buy and Sell on M" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,976" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,556" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,782" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
-              <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT'" sap:VirtualizedContainerService.HintSize="416,188" sap2010:WorkflowViewState.IdRef="SetValue_2" Text="Impact Wrench Ingco">
+              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="450,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT'" sap:VirtualizedContainerService.HintSize="450,188" sap2010:WorkflowViewState.IdRef="SetValue_2" Text="Impact Wrench Ingco">
                 <ui:SetValue.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f811bdfb-7bf2-443f-8cfa-d06b6d2cc249" InformativeScreenshot="44dbc091d30a81a1d226ea764db9a005" Selector="&lt;webctrl tag='INPUT' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -129,7 +129,7 @@
                   </ui:Target>
                 </ui:SetValue.Target>
               </ui:SetValue>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="shopee.ph" CVScreenId="346d6312-8416-4de2-8129-2ef0912747b0" ContentHash="HzcJndqYlUWTnEbgxZ1E-A" CvElementArea="1337, 197, 66, 40" CvType="Button" DesignTimeRectangle="1340, 200, 60, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='button' /&gt;" Guid="4d87f61c-d080-4d7e-a706-a2c509e4e9c2" InformativeScreenshot="5f4d147dfcfc1c26fd6395c9d38fb90f.png" Reference="W0zk2vHyhk6EeBwhQd-nnQ/3lXim7h4U0iNpc-90SUtCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shopee Philippines | Shop Online with Promos and Vouchers' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -140,6 +140,24 @@
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
               </uix:NClick>
+              <Sequence DisplayName="Price Validation" sap:VirtualizedContainerService.HintSize="450,217" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NGetText DisplayName="Get Text 'SPayLater 0% Interest 3…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,134" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="5a1c6f64-e42a-46f4-866e-27b9402092de" Version="V5">
+                  <uix:NGetText.Target>
+                    <uix:TargetAnchorable BrowserURL="shopee.ph/search" CVScreenId="d2eee76d-ce20-4286-9122-efa9f744083b" ContentHash="cEMS8CW00U676lZHbXtSyg" CvType="AnyWordGroup" DesignTimeRectangle="589, 642, 40, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='main' tag='SPAN' type='' class='truncate text-base/5 font-medium' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="70e75f37-4192-409e-bb5b-accce25d9493" Reference="W0zk2vHyhk6EeBwhQd-nnQ/SIHo0RoqkUSPIJAcdXXuug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='&amp;quot;impact wrench ingco&amp;quot; - Best Prices and Online Promos - Dec 2025 | Shopee Philippines' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="384, 631, 167, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='SPayLater 0% Interest 3 &amp;amp; 6 Mos' class='shopee-checkbox__label' parentid='main' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='SPayLater 0% Interest 3 &amp;amp; 6 Mos' /&gt;" Guid="0173248f-eab7-4605-a570-5880710e4861" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NGetText.Target>
+                </uix:NGetText>
+              </Sequence>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
