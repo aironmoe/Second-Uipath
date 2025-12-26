@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vOPiOR_uyka6pDXRd4Vmqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jdsports.com.ph" CVScreenId="c3d5fd2f-95e0-4428-9efd-fcba1e6b4a48" CvElementArea="632, 148, 565, 50" CvType="InputBox" DesignTimeRectangle="634, 151, 531, 44" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='boost-sd__search-widget-init-input-0' tag='INPUT' /&gt;" Guid="fc231665-2d2e-40ce-8bb2-493021bddee2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Philippines' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f7c82f8f88d0d087362b14c746b52e6.png" xmlns="">0caTNPbLeJ06d7gVI70qCqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-Ndct6f5uEqSengScOcpdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jdsports.com.ph" DesignTimeRectangle="634, 151, 531, 44" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='boost-sd__search-widget-init-input-0' tag='INPUT' /&gt;" Guid="ad72052f-f55f-42c1-a729-00e2923b80b7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Philippines' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a758dc941cefaa56b22e27e055182710.png" xmlns="">0nz-pcVZOKU2UtNUZxvAUCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardTrigger</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Xrt0u1lLgUWHbayc1WVKbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jdsports.com.ph" CVScreenId="2fe022e8-3e9d-42c6-a8d0-0a6e935bdae7" CvElementArea="634, 147, 561, 49" CvType="InputBox" DesignTimeRectangle="634, 151, 563, 44" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="3684abd4-c9ee-4472-a85f-6612359b1675" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Philippines' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3f10eb23c61acaf7b94f5ef6f10965b.png" xmlns="">0MfDX7w2LQkunmw57M_IxiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

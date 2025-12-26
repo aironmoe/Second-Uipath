@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Adiddas(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xU01V0nQaEe7TD7ony9CUA",
+  "Reference": "W0zk2vHyhk6EeBwhQd-nnQ/xU01V0nQaEe7TD7ony9CUA",
+  "ParentRef": "W0zk2vHyhk6EeBwhQd-nnQ/97WExyqhl0-t5qRK2no8Fw",
+  "Created": "2025-12-26T04:01:36.9051459Z",
+  "Updated": "2025-12-26T04:01:36.9051459Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome JD Sports Philippines",
+  "Type": "App",
+  "Id": "rRmqxRH-d0Cc8CCTW9NNDg",
+  "Reference": "W0zk2vHyhk6EeBwhQd-nnQ/rRmqxRH-d0Cc8CCTW9NNDg",
+  "Created": "2025-12-02T03:28:40.1546024Z",
+  "Updated": "2025-12-02T03:28:40.1546024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

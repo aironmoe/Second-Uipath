@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="h61ZQ07di0qXRYi4cKQakw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="FldRuzmm9UKqLPfMZAXIWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopee.ph/search" CVScreenId="b572bcac-64c9-461a-ab91-5161302a1d0f" CvType="AnyWordGroup" DesignTimeRectangle="789, 642, 40, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='main' tag='SPAN' type='' class='truncate text-base/5 font-medium' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="01eeeafe-c393-466a-833b-53325dc50eb5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='impact wrench ingco - Best Prices and Online Promos - Dec 2025 | Shopee Philippines' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7bc7248b3d846a0a544d13b45340f725.png" xmlns="">0Y8C3Mq0CPUWz5w4LnZqg2w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopee.ph/search" CVScreenId="7d8b153e-cfb1-4feb-a15f-8fb195853423" CvType="AnyWordGroup" DesignTimeRectangle="789, 642, 40, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='main' tag='SPAN' type='' class='truncate text-base/5 font-medium' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="aee27e33-430b-41bd-84cf-f5a7aaeb1a09" ScopeSelectorArgument="&lt;html app='chrome.exe' title='impact wrench ingco - Best Prices and Online Promos - Dec 2025 | Shopee Philippines' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="580, 666, 172, 20" FuzzySelectorArgument="&lt;webctrl type='' class='box-border flex !space-x-1 h-5 text-sp10 my:text-[0.5rem] km:text-[0.5rem] items-center overflow-hidden mb-2 flex items-center' parentid='main' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Free Gift' /&gt;" Guid="394f25d3-c148-40c4-9365-6cb41f20af7a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="63c4c5226df087e527cea6d4b4fca8e9.png" xmlns="">0EciMrCgf_k2xfeRrLn8bMg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>
