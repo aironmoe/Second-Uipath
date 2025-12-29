@@ -115,7 +115,7 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1082,795" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1082,742" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Default="0" Name="intPrice" />
       <Variable x:TypeArguments="sd2:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
@@ -125,19 +125,19 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="486,772" sap2010:WorkflowViewState.IdRef="Sequence_10">
+    <Sequence sap:VirtualizedContainerService.HintSize="486,719" sap2010:WorkflowViewState.IdRef="Sequence_10">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome JD Sports Philippines(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,689" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="bb848bcc-7a28-4bb6-b20d-7083e7a62cba" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome JD Sports Philippines(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,636" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="bb848bcc-7a28-4bb6-b20d-7083e7a62cba" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,495" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_12">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -148,7 +148,7 @@
                   <uix:TargetAnchorable BrowserURL="jdsports.com.ph" CVScreenId="2fe022e8-3e9d-42c6-a8d0-0a6e935bdae7" ContentHash="Xrt0u1lLgUWHbayc1WVKbQ" CvElementArea="634, 147, 561, 49" CvType="InputBox" DesignTimeRectangle="634, 151, 563, 44" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="3684abd4-c9ee-4472-a85f-6612359b1675" InformativeScreenshot="f3f10eb23c61acaf7b94f5ef6f10965b.png" Reference="W0zk2vHyhk6EeBwhQd-nnQ/Ew3aT5MEuE6_sTdqXY24sw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Philippines' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NSetText.Target>
               </uix:NSetText>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Adiddas(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="bb848bcc-7a28-4bb6-b20d-7083e7a62cba" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Adiddas(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="bb848bcc-7a28-4bb6-b20d-7083e7a62cba" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
                 <uix:NKeyboardShortcuts.Target>
                   <uix:TargetAnchorable BrowserURL="jdsports.com.ph" CVScreenId="c3d5fd2f-95e0-4428-9efd-fcba1e6b4a48" ContentHash="vOPiOR_uyka6pDXRd4Vmqg" CvElementArea="632, 148, 565, 50" CvType="InputBox" DesignTimeRectangle="634, 151, 531, 44" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='boost-sd__search-widget-init-input-0' tag='INPUT' /&gt;" Guid="fc231665-2d2e-40ce-8bb2-493021bddee2" InformativeScreenshot="1f7c82f8f88d0d087362b14c746b52e6.png" Reference="W0zk2vHyhk6EeBwhQd-nnQ/xU01V0nQaEe7TD7ony9CUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Philippines' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NKeyboardShortcuts.Target>
@@ -159,51 +159,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </uix:NKeyboardShortcuts>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Search: 347 results found for &quot;Adiddas&quot; – JD Sports Philippines" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="295fc9c7-c2f8-4c83-8eb8-39ed8a8ebda4" Version="V2">
-                <uix:NApplicationCard.Body>
-                  <ActivityAction x:TypeArguments="x:Object">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Item Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Item Price'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="295fc9c7-c2f8-4c83-8eb8-39ed8a8ebda4" Version="V5">
-                        <uix:NExtractData.Target>
-                          <uix:TargetAnchorable BrowserURL="https://www.jdsports.com.ph/search?page=1&amp;q=Adiddas" DesignTimeRectangle="8, -214, 1915, 9562" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='DIV' /&gt;" Guid="b4d97d51-2a14-46ce-8d52-4f80449ca482" InformativeScreenshot="e6901ea28ed6d32f3ea611455a333dad.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search: 347 results found for &amp;quot;Adiddas&amp;quot; – JD Sports Philippines' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                        </uix:NExtractData.Target>
-                      </uix:NExtractData>
-                    </Sequence>
-                  </ActivityAction>
-                </uix:NApplicationCard.Body>
-                <uix:NApplicationCard.OCREngine>
-                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-                    <ActivityFunc.Argument>
-                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-                    </ActivityFunc.Argument>
-                  </ActivityFunc>
-                </uix:NApplicationCard.OCREngine>
-                <uix:NApplicationCard.TargetApp>
-                  <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="631401a424d60e95a283bb2432d550c4.jpg" Selector="&lt;html app='chrome.exe' title='Search: 347 results found for &amp;quot;Adiddas&amp;quot; – JD Sports Philippines' /&gt;" Url="https://www.jdsports.com.ph/search?page=1&amp;q=Adiddas" Version="V2">
-                    <uix:TargetApp.Arguments>
-                      <InArgument x:TypeArguments="x:String" />
-                    </uix:TargetApp.Arguments>
-                    <uix:TargetApp.WorkingDirectory>
-                      <InArgument x:TypeArguments="x:String" />
-                    </uix:TargetApp.WorkingDirectory>
-                  </uix:TargetApp>
-                </uix:NApplicationCard.TargetApp>
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-              </uix:NApplicationCard>
-              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_4" Reason="Terminate" />
+              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_4" Reason="Terminate" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>

@@ -4,6 +4,8 @@
   "description": "Practice",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.GSuite.Activities": "[3.5.11]",
     "UiPath.System.Activities": "[25.10.3]",
     "UiPath.UIAutomation.Activities": "[25.10.21]",
     "UiPath.WorkflowEvents.Activities": "[3.25.0]"
